@@ -12,7 +12,7 @@ body{
 }
 .main header{
    
-    padding: 20px;
+    padding: 30px;
     width: 50%; 
     display: flex; 
     
@@ -37,7 +37,7 @@ body{
 }
 .content .images img[alt="first"]{
     position: absolute;
-    top: 0;
+    top: 70px;
     width: 600px;
     height: 650px;
     z-index: 1;
