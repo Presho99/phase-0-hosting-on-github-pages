@@ -74,3 +74,23 @@ body{
 .content .text h3{
     letter-spacing: 5px;
 }
+.content .btn{
+    position: absolute;
+    left: 20%;
+    top: 60%;
+    
+   
+  
+}
+.content .btn button{
+    background-color: #2f4f4f;
+    outline: none;
+    padding: 15px 32px;
+    border: 0;
+    color: #ffe9f4;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
