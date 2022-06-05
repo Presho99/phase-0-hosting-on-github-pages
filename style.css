@@ -51,10 +51,26 @@ body{
 }
 .content .text{
     position: absolute;
-    right: 50%;
+    right: 40%;
     top: 30%;
-    background-color: crimson;
+    /* background-color: crimson; */
     padding: 0 20px;
-    width: 200px;
+    width: 600px;
+    color: #2f4f4f;
+    font-family: "Roboto", sans-serif;
+    z-index: 2;
+    line-height: 30px;
     
+    
+    
+}
+.content .text h1{
+    font-size: 48px;
+}
+.content .text h2{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.content .text h3{
+    letter-spacing: 5px;
 }
