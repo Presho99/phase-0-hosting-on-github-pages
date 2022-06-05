@@ -1,5 +1,6 @@
 body{
     background: #f2f3f4;
+    overflow: hidden;
 }
 .main{
     position: absolute;
@@ -7,7 +8,7 @@ body{
     width: 100%;
     min-height: 100vh;
     background: #ffe;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .main header{
    
@@ -38,7 +39,7 @@ body{
     position: absolute;
   
     width: 600px;
-    height: 700px;
+    height: 650px;
     z-index: 1;
 }
 .content .images img[alt="second"]{
@@ -94,3 +95,24 @@ body{
     cursor: pointer;
     
 }
+footer{
+    background-color: #2f4f4f;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    bottom: 0px;
+    padding: 10px;
+    z-index: 100;
+}
+/* footer .email{
+    width: 30%;
+}
+.footer .phone{
+    width: 33.33%;
+}
+.footer .location{
+    width: 33.33%;
+} */
