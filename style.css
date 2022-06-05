@@ -34,3 +34,27 @@ body{
     background-color: aqua;
     width: 50%;
 }
+.content .images img[alt="first"]{
+    position: absolute;
+  
+    width: 600px;
+    height: 700px;
+    z-index: 1;
+}
+.content .images img[alt="second"]{
+    position: absolute;
+    top: -120px;
+    right: -500px;
+    width: 1200px;
+    height: 1200px;
+    z-index: 0;
+}
+.content .text{
+    position: absolute;
+    right: 50%;
+    top: 30%;
+    background-color: crimson;
+    padding: 0 20px;
+    width: 200px;
+    
+}
