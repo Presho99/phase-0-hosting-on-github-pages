@@ -25,7 +25,7 @@ body{
     text-decoration: none;
 }
 .main header nav a:hover{
-    color: #000000;
+    color: #cf91b5;
     text-decoration: underline;
 }
 .content .images{
@@ -37,7 +37,7 @@ body{
 }
 .content .images img[alt="first"]{
     position: absolute;
-  top: 0;
+    top: 0;
     width: 600px;
     height: 650px;
     z-index: 1;
@@ -121,7 +121,23 @@ footer{
     border-left: 1px solid #dadedf;
   height: 100%;
   position: absolute;
-  left: 6%;
+  left: 5%;
   margin-left: -3px;
   top: 0;
+}
+.socials{
+    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    padding: 5px;
+}
+.socials a{
+    color: #2f4f4f;
+    margin: 11px;
+    font-size: 20px;
+}
+.socials a:hover{
+    color: #cf91b5;
 }
