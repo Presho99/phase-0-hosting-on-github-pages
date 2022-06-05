@@ -7,7 +7,7 @@ body{
     top: 0;
     width: 100%;
     min-height: 100vh;
-    background: #ffe;
+    background: #fff;
     /* overflow: hidden; */
 }
 .main header{
@@ -37,7 +37,7 @@ body{
 }
 .content .images img[alt="first"]{
     position: absolute;
-  
+  top: 0;
     width: 600px;
     height: 650px;
     z-index: 1;
@@ -106,6 +106,7 @@ footer{
     bottom: 0px;
     padding: 10px;
     z-index: 100;
+    color: #ffe9f4;
 }
 /* footer .email{
     width: 30%;
@@ -116,3 +117,11 @@ footer{
 .footer .location{
     width: 33.33%;
 } */
+.line{
+    border-left: 1px solid #dadedf;
+  height: 100%;
+  position: absolute;
+  left: 6%;
+  margin-left: -3px;
+  top: 0;
+}
